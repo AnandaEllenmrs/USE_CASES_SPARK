@@ -36,19 +36,42 @@ O processo de ETL foi conduzido em várias etapas, detalhadas a seguir:
 12. **Camada Gold - Distribuição de Avaliações**: Criação da tabela que conta o número de avaliações para cada nota.
 13. **Acesso Fácil às Tabelas Gold**: Disponibilização das tabelas gold para acesso fácil e rápido.
 
-## Como Utilizar
+## Como Executar o Processo ETL
 
-Para reproduzir o projeto e visualizar os resultados, siga os passos abaixo:
+Para executar o processo ETL deste projeto, siga estas etapas:
 
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/AnandaEllenmrs/USE_CASES_SPARK.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```sh
-   cd USE_CASES_SPARK
-   ```
-3. Siga as instruções no arquivo README.md para configurar o ambiente e executar o pipeline de ETL.
+1. Clone o repositório para sua máquina local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+ 
+ 2. Instale e Configure o Apache Spark
+Certifique-se de ter o Apache Spark instalado e configurado.
+Instruções de instalação estão disponíveis (https://spark.apache.org/docs/latest/).
+
+ 4. Importe o Arquivo USE_CASES_PRONTO.dbc no Databricks
+      Acesse sua conta no Databricks.
+      Vá para "Workspace" e clique em "Import".
+      Selecione "File" e carregue o arquivo USE_CASES_PRONTO.dbc do repositório clonado.
+
+ 5. Execute os Notebooks
+Após a importação, execute os notebooks na ordem apresentada para garantir que o processo ETL seja realizado corretamente:
+
+   Notebook 1: Criação do Database e Listagem dos Arquivos Carregados.
+   Notebook 2: Criação dos DataFrames a partir dos arquivos JSON.
+   Notebook 3: Processamento e Armazenamento na Camada Bronze.
+Notebook 4: Seleção e Transformação dos Dados na Camada Silver.
+Notebook 5: Junção das Tabelas e Criação da Tabela avaliacao_filmes.
+Notebook 6: Geração das Tabelas na Camada Gold com os resultados finais.
+ 
+ 5. Verifique os Resultados
+Verifique as tabelas geradas na camada Gold para obter insights como:
+
+   Os 10 filmes mais votados.
+  
+   Os 10 filmes mais populares não lançados.
+  
+   A contagem de avaliações por nota.
 
 ## Conclusão
 
