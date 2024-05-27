@@ -41,26 +41,21 @@ O processo de ETL foi conduzido em várias etapas, detalhadas a seguir:
 Para executar o processo ETL deste projeto, siga estas etapas:
 
 
-1. Clone o repositório para sua máquina local:
+1. **Clone o repositório para sua máquina local:**
 
-   ```bash
+    ```bash
    git clone https://github.com/AnandaEllenmrs/USE_CASES_PRONTO.dbc
 
-
-## 🚀 Como Executar o Processo ETL
-
-Para executar o processo ETL deste projeto, siga estas etapas:
-
-1. **Instale e Configure o Apache Spark**:
+2. **Instale e Configure o Apache Spark**:
    Certifique-se de ter o Apache Spark instalado e configurado.
    Instruções de instalação estão disponíveis [aqui](https://spark.apache.org/docs/latest/).
 
-2. **Importe o Arquivo USE_CASES_PRONTO.dbc no Databricks**:
+3. **Importe o Arquivo USE_CASES_PRONTO.dbc no Databricks**:
    - Acesse sua conta no Databricks.
    - Vá para "Workspace" e clique em "Import".
    - Selecione "File" e carregue o arquivo USE_CASES_PRONTO.dbc do repositório clonado.
 
-3. **Execute os Notebooks**:
+4. **Execute os Notebooks**:
    Após a importação, execute os notebooks na ordem apresentada para garantir que o processo ETL seja realizado corretamente:
    - Notebook 1: Criação do Database e Listagem dos Arquivos Carregados.
    - Notebook 2: Criação dos DataFrames a partir dos arquivos JSON.
@@ -69,10 +64,13 @@ Para executar o processo ETL deste projeto, siga estas etapas:
    - Notebook 5: Junção das Tabelas e Criação da Tabela avaliacao_filmes.
    - Notebook 6: Geração das Tabelas na Camada Gold com os resultados finais.
 
-4. **Verifique os Resultados**:
+5. **Verifique os Resultados**:
    Verifique as tabelas geradas na camada Gold para obter insights como:
    - Os 10 filmes mais votados.
    - Os 10 filmes mais populares não lançados.
    - A contagem de avaliações por nota.
 
+## Conclusão
+
+   Este projeto demonstra como o Apache Spark pode ser utilizado para processar e analisar grandes volumes de dados de forma eficiente. Através das etapas de ETL, os dados brutos são transformados em informações valiosas, permitindo insights sobre os filmes mais votados, os filmes populares ainda não lançados e a distribuição das avaliações.
 
