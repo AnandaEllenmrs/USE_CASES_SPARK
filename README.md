@@ -2,6 +2,8 @@
 
 Este repositório contém um projeto de análise de dados utilizando Apache Spark, com foco em ETL (Extração, Transformação e Carga) de dados de filmes e avaliações. O objetivo é limpar e transformar os dados, produzindo três resultados analíticos que respondem a casos de uso específicos.
 
+Este projeto foi desenvolvido no ambiente do [Databricks](https://databricks.com/)
+
 ## 📊 Dados Utilizados
 
 Os dados utilizados no projeto consistem em dois conjuntos principais:
