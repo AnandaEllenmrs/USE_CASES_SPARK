@@ -72,6 +72,13 @@ Para executar o processo ETL deste projeto, siga estas etapas:
    - Os 10 filmes mais populares não lançados.
    - A contagem de avaliações por nota.
 
+
+###  Exemplo do Resultado do primeiro caso:
+
+![exemplo_1](https://github.com/AnandaEllenmrs/USE_CASES_SPARK/assets/136005017/768182e4-82d5-49fa-8844-8ea98c3affcc)
+
+
+
 ## Conclusão
 
    Este projeto demonstra como o Apache Spark pode ser utilizado para processar e analisar grandes volumes de dados de forma eficiente. Através das etapas de ETL, os dados brutos são transformados em informações valiosas, permitindo insights sobre os filmes mais votados, os filmes populares ainda não lançados e a distribuição das avaliações.
