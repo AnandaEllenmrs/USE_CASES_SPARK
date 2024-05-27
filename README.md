@@ -5,8 +5,8 @@ Este repositório contém um projeto de análise de dados utilizando Apache Spar
 ## 📊 Dados Utilizados
 
 Os dados utilizados no projeto consistem em dois conjuntos principais:
-- **Filmes**: Contém informações sobre os filmes.
-- **Avaliações**: Contém avaliações dos filmes realizadas pelos usuários.
+- **Filmes (movies)**: Contém informações sobre os filmes.
+- **Avaliações (ratings)**: Contém avaliações dos filmes realizadas pelos usuários.
 
 Ambos os arquivos estão disponíveis no repositório para consulta e verificação.
 
