@@ -44,7 +44,7 @@ Para executar o processo ETL deste projeto, siga estas etapas:
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/AnandaEllenmrs/USE_CASES_SPARK.git
+   git clone https://github.com/AnandaEllenmrs/USE_CASES_PRONTO.dbc
 
 
 ## 🚀 Como Executar o Processo ETL
